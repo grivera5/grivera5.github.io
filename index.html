@@ -7,22 +7,23 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            background-color: #000000;
             margin: 0;
             padding: 0;
             text-align: center;
+            color: white;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #FF5722;
             color: white;
             padding: 1em;
         }
         .container {
             margin: 50px auto;
-            max-width: 600px;
+            max-width: 800px;
             padding: 20px;
-            background-color: white;
-            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+            background-color: #1C1C1C;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
         }
         img {
             width: 150px;
@@ -36,17 +37,34 @@
         }
         p {
             font-size: 1.2em;
-            color: #333;
+            color: #DDD;
         }
         a {
             text-decoration: none;
-            color: #4CAF50;
+            color: #FF5722;
             font-weight: bold;
         }
         footer {
             margin-top: 20px;
             font-size: 0.9em;
             color: #777;
+        }
+        .projects {
+            margin-top: 40px;
+        }
+        .project-item {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #333333;
+            border-radius: 8px;
+        }
+        .project-item h2 {
+            color: #FF5722;
+            font-size: 1.8em;
+        }
+        .project-item p {
+            font-size: 1em;
+            color: #BBB;
         }
     </style>
 </head>
@@ -64,6 +82,23 @@
     
     <!-- Resume Link -->
     <p>Feel free to check out my <a href="resume.pdf" target="_blank">resume</a>.</p>
+    
+    <!-- Projects Section -->
+    <div class="projects">
+        <h1>Projects</h1>
+        
+        <!-- Project 1 -->
+        <div class="project-item">
+            <h2>Project 1: Data Analysis with Python</h2>
+            <p>In this project, I analyzed sales data using Python's Pandas and Matplotlib libraries to generate actionable insights for business growth. Check it out on <a href="#">GitHub</a>.</p>
+        </div>
+        
+        <!-- Project 2 -->
+        <div class="project-item">
+            <h2>Project 2: IT Support Automation Script</h2>
+            <p>This project involves automating common IT support tasks using PowerShell scripts to increase productivity and minimize human error. Check it out on <a href="#">GitHub</a>.</p>
+        </div>
+    </div>
 </div>
 
 <footer>
@@ -72,3 +107,4 @@
 
 </body>
 </html>
+
